@@ -1,0 +1,16 @@
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FrmMain.resources
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FrmDanhMuc.resources
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FrmSach.resources
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FrmDocGia.resources
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FrmMuonTra.resources
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.FrmThongKe.resources
+C:\PPPT_PN_MNM\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe.config
