@@ -1,0 +1,17 @@
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.AssemblyReference.cache
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Form1.resources
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Forms.FormMain.resources
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\#.exe.config
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\#.exe
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\#.pdb
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FrmDanhMuc.resources
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\#.exe
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\#.pdb
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\#.exe.config
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FrmPhongTienNghi.resources
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FrmDatPhong.resources
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FrmDichVu.resources
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FrmThongKe.resources
+C:\PPPT_PN_MNM\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FrmTraPhong.resources
