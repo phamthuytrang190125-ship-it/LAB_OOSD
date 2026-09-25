@@ -6,18 +6,18 @@
 * Tên bài Lab:Lab 3 - Xây dựng ứng dụng Quản lý Khách sạn (WinForms & C#)
 
 2. Môi trường & Công nghệ sử dụng
-* **Ngôn ngữ lập trình:** C# (.NET Framework / .NET Core)
-* **Giao diện:** Windows Forms (WinForms)
-* **IDE:** Visual Studio 2019 / 2022
-* **Môi trường đặc biệt:** Phát triển trên môi trường Windows ảo hóa bằng phần mềm **UTM** chạy trên máy Mac kiến trúc ARM (Apple Silicon M-chip). Do hạn chế phần cứng, dự án sử dụng các chiến lược kết nối giả lập/dữ liệu bộ nhớ (`BindingList`, `DataTable` nội bộ) để tối ưu hóa hiệu năng.
+* Ngôn ngữ lập trình: C# (.NET Framework / .NET Core)
+* Giao diện: Windows Forms (WinForms)
+* IDE: Visual Studio 2019 / 2022
+* Môi trường đặc biệt: Phát triển trên môi trường Windows ảo hóa bằng phần mềm UTM chạy trên máy Mac kiến trúc ARM (Apple Silicon M-chip). Do hạn chế phần cứng, dự án sử dụng các chiến lược kết nối giả lập/dữ liệu bộ nhớ (`BindingList`, `DataTable` nội bộ) để tối ưu hóa hiệu năng.
 
 3. Nội dung đã thực hiện
 Xây dựng thành công ứng dụng quản lý khách sạn hoàn chỉnh gồm các chức năng chính:
-* **Màn hình chính (`FormMain`):** Điều hướng trung tâm đến toàn bộ các phân hệ của hệ thống.
-* **Quản lý danh mục (`FrmDanhMuc`):** 
+* Màn hình chính (`FormMain`): Điều hướng trung tâm đến toàn bộ các phân hệ của hệ thống.
+* Quản lý danh mục (`FrmDanhMuc`):** 
   * Thiết kế giao diện theo dạng `TabControl` gồm 5 tab: Khu vực, Nhân viên, Loại tiện nghi, Dịch vụ, Quy định đền bù.
   * Quản lý và nạp dữ liệu giao diện trực quan.
-* **Đặt / Nhận phòng (`FrmDatPhong`):**
+* Đặt / Nhận phòng (`FrmDatPhong`):**
   * Quản lý thông tin khách hàng, kênh đặt phòng, tiền cọc.
   * Thêm phòng vào danh sách chọn thông qua bảng tạm, kiểm tra sức chứa và lập phiếu đặt phòng.
 * **Trả phòng & Thanh toán (`FrmTraPhong`):**
