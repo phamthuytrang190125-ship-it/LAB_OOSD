@@ -1,9 +1,9 @@
 # BÁO CÁO LAB 3: ĐỒ ÁN QUẢN LÝ KHÁCH SẠN (C# WinForms)
 
 1. Thông tin sinh viên
-Họ và tên:Phạm Thị Thuỳ Trang
-MSSV): 1250080207
-Tên bài Lab:Lab 3 - Xây dựng ứng dụng Quản lý Khách sạn (WinForms & C#)
+* Họ và tên:Phạm Thị Thuỳ Trang
+* MSSV: 1250080207
+* Tên bài Lab:Lab 3 - Xây dựng ứng dụng Quản lý Khách sạn (WinForms & C#)
 
 ## 2. Môi trường & Công nghệ sử dụng
 * **Ngôn ngữ lập trình:** C# (.NET Framework / .NET Core)
