@@ -1,8 +1,8 @@
 # BÁO CÁO LAB 3: ĐỒ ÁN QUẢN LÝ KHÁCH SẠN (C# WinForms)
 
 ## 1. Thông tin sinh viên
-* **Họ và tên:** [Điền họ tên của bạn vào đây]
-* **Mã số sinh viên (MSSV):** [Điền MSSV của bạn vào đây]
+Họ và tên:Phạm Thị Thuỳ Trang
+Mã số sinh viên (MSSV):** [Điền MSSV của bạn vào đây]
 * **Tên bài Lab:** Lab 3 - Xây dựng ứng dụng Quản lý Khách sạn (WinForms & SQL Server)
 
 ## 2. Môi trường & Công nghệ sử dụng
