@@ -16,36 +16,34 @@
 Xây dựng thành công ứng dụng quản lý khách sạn hoàn chỉnh gồm các chức năng chính:
 * Thiết kế Cơ sở dữ liệu (Oracle): Xây dựng mô hình quan hệ gồm 8 bảng cốt lõi: NhomSanPham, KhachHang, SanPham, GioHang, ChiTietGioHang, DonHang, ChiTietDonHang, TheTinDung. Tiến hành chèn dữ liệu mẫu thực tế (mỗi bảng từ 4-5 bản ghi phong phú).
 * Phát triển Giao diện & Điều hướng (FrmMain):
-  * Thiết kế giao diện theo dạng `TabControl` gồm 5 tab: Khu vực, Nhân viên, Loại tiện nghi, Dịch vụ, Quy định đền bù.
-  * Quản lý và nạp dữ liệu giao diện trực quan.
-* Đặt / Nhận phòng (`FrmDatPhong`):
-  * Quản lý thông tin khách hàng, kênh đặt phòng, tiền cọc.
-  * Thêm phòng vào danh sách chọn thông qua bảng tạm, kiểm tra sức chứa và lập phiếu đặt phòng.
-* Trả phòng & Thanh toán (`FrmTraPhong`):
-  * Kiểm tra tiện nghi phòng, ghi nhận mức độ hư hỏng và lập phiếu đền bù.
-  * Tính tiền phòng, tiền dịch vụ, lập hóa đơn và thực hiện giao dịch thanh toán, giải phóng phòng.
-* Thống kê (`FrmThongKe`):
-  * Thống kê tổng hợp số lượng phiếu đặt, phòng đang ở, hóa đơn, doanh thu và tổng tiền đền bù theo khoảng thời gian tùy chọn (`DateTimePicker`).
-  * Thống kê chi tiết dịch vụ sử dụng.
+  * Xây dựng thanh menu trực quan gồm 3 nhóm chính: Hệ thống, Danh mục (Sản phẩm, Nhóm sản phẩm, Khách hàng) và Nghiệp vụ (Xem giỏ hàng, Tạo đơn đặt hàng, Thanh toán thẻ tín dụng).
+  * Sử dụng DataGridView kết hợp OracleDataAdapter để đổ dữ liệu động từ Oracle lên giao diện theo thời gian thực.
+* Mở rộng tính năng tương tác:
+  * Xây dựng FrmLogin: Cho phép khách hàng đăng nhập hệ thống bằng tài khoản được lưu trong bảng KhachHang.
+  * Xây dựng FrmThemSanPham: Cho phép thực thi câu lệnh INSERT để thêm mới sản phẩm trực tiếp từ giao diện Windows Forms xuống CSDL Oracle.
 
 4. Kết quả đạt được
-* Hoàn thành 100% các form giao diện trực quan theo đúng hướng dẫn của bài thực hành.
-* Các sự kiện tương tác (`Click`, `SelectionChanged`, `Load`) hoạt động mượt mà, không phát sinh lỗi biên dịch, giao diện bố trí đúng chuẩn yêu cầu học tập.
+* Kết nối thành công mạng giữa máy ảo Windows và Oracle Database trên máy Mac.
+* Ứng dụng chạy mượt mà, thực hiện đầy đủ các chức năng xem dữ liệu, đăng nhập và thêm mới sản phẩm thành công 100%.
 
 5. Các lỗi gặp phải và Cách khắc phục
 Trong quá trình phát triển trên máy Mac (Apple Silicon M-chip qua UTM), đã gặp một số vấn đề và được xử lý triệt để:
-* Lỗi thiếu file cấu hình (`AssemblyInfo.cs`, `Settings.Designer.cs`):
-  * *Nguyên nhân:* Do xung đột đường dẫn hoặc vô tình xóa nhầm file thành phần trong thư mục `Properties`.
-  * *Cách khắc phục:* Dọn dẹp lại cấu trúc dự án trong Solution Explorer, loại bỏ (`Exclude`) các file tham chiếu hỏng và chuẩn hóa lại mã nguồn thiết kế.
-* Lỗi không tương thích phần cứng (Hạn chế cài đặt LocalDB đầy đủ):
-  * *Nguyên nhân:* Môi trường máy ảo ARM gặp khó khăn khi khởi chạy các dịch vụ hệ thống nặng của cơ sở dữ liệu truyền thống.
-  * *Cách khắc phục:* Chuyển hướng sang sử dụng các mô hình cấu trúc dữ liệu nhẹ, danh sách liên kết (`BindingList`) và bảng dữ liệu nội bộ (`DataTable`) để giả lập giao diện và logic mượt mà.
-* Lỗi kiểu dữ liệu Generic (`BindingList`) và định dạng chuỗi:
-  * *Nguyên nhân:* Thiếu tham số kiểu dữ liệu khi khai báo danh sách tạm cho các bảng chọn hoặc dùng sai cú pháp chuỗi đời mới.
-  * *Cách khắc phục:* Bổ sung đầy đủ tham số kiểu (``, ``) và chuẩn hóa lại cú pháp nối chuỗi tương thích mọi phiên bản .NET.
+* Lỗi ORA-50000 / ORA-50201 (Connection request timed out / Failed to connect)
+  * *Nguyên nhân:* Mạng Wi-Fi thay đổi động làm địa chỉ IP của máy Mac thay đổi, hoặc chuỗi kết nối sai Service Name (FREE thay vì orcl).
+  * *Cách khắc phục:* Kiểm tra IP hiện tại của Mac trong Network Settings, cập nhật lại chuỗi kết nối (Data Source=IP_MỚI:1521/FREE) và cấu hình đúng chuẩn EZConnect.
+* Lỗi Lỗi xung đột file .Designer.cs khi tạo form bằng code thuần
+  * *Nguyên nhân:* Visual Studio tự sinh file Designer và bắt buộc tìm các hàm sự kiện mặc định (*_Load, Dispose).
+  * *Cách khắc phục:* Xóa các file Designer phụ không cần thiết, đồng thời cấu hình lớp ở dạng class thuần hoặc đồng bộ đầy đủ các phương thức partial.
+* Lỗi font chữ tiếng Việt khi hiển thị dữ liệu
+  * *Nguyên nhân:* Mã hóa ký tự giữa Client và Server Oracle chưa khớp.
+  * *Cách khắc phục:* Thêm lệnh SET DEFINE OFF; trước khi chạy script SQL và đảm bảo cơ sở dữ liệu sử dụng bảng mã chuẩn UTF-8.
 
 6. Hướng dẫn kiểm tra và chạy lại chương trình
-1. Mở dự án: Khởi động phần mềm Visual Studio trong máy ảo Windows, chọn *Open a project or solution* và dẫn tới file chứa đồ án (`QuanLyKhachSan.sln`).
-2. Cấu hình khởi động: Đảm bảo file `Program.cs` đang gọi điểm bắt đầu là `Application.Run(new FormMain());`.
-3. Chạy ứng dụng: Nhấn nút Start (màu xanh lá ở thanh công cụ trên cùng) hoặc phím tắt `F5` để biên dịch. Màn hình điều hướng `FormMain` sẽ xuất hiện, giảng viên có thể bấm trực tiếp vào các nút chức năng để kiểm tra từng form con.
-
+1. Khởi động Cơ sở dữ liệu: Đảm bảo Oracle Database trên máy Mac đang hoạt động và mạng nội bộ giữa máy ảo Windows và Mac đã thông suốt (có thể ping thấy địa chỉ IP 192.168.22.51).
+2. Mở Project: Khởi động Visual Studio trên Windows và mở solution HeThongEShopping.sln.
+3. Kiểm tra Chuỗi kết nối: Mở các file FrmMain.cs, FrmLogin.cs, và FrmThemSanPham.cs, kiểm tra đoạn conString đảm bảo trỏ đúng IP 192.168.22.51 và mật khẩu Oracle của bạn.
+4. Chạy ứng dụng: Nhấn nút Start (F5) trên thanh công cụ của Visual Studio.
+5. Thao tác kiểm tra:
+   * Vào Danh mục > Sản phẩm để xem danh sách sản phẩm đổ từ Oracle lên lưới.
+   * Vào Hệ thống > Đăng nhập Khách hàng để thử nghiệm tính năng đăng nhập (Tài khoản mẫu: ptttrang / 123456 hoặc annguyen / pass123).
+   * Sử dụng form thêm sản phẩm để kiểm tra chức năng ghi dữ liệu xuống CSDL.
