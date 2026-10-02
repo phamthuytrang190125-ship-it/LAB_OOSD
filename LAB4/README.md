@@ -39,11 +39,11 @@ Trong quá trình phát triển trên máy Mac (Apple Silicon M-chip qua UTM), �
   * *Cách khắc phục:* Thêm lệnh SET DEFINE OFF; trước khi chạy script SQL và đảm bảo cơ sở dữ liệu sử dụng bảng mã chuẩn UTF-8.
 
 6. Hướng dẫn kiểm tra và chạy lại chương trình
-1. Khởi động Cơ sở dữ liệu: Đảm bảo Oracle Database trên máy Mac đang hoạt động và mạng nội bộ giữa máy ảo Windows và Mac đã thông suốt (có thể ping thấy địa chỉ IP 192.168.22.51).
-2. Mở Project: Khởi động Visual Studio trên Windows và mở solution HeThongEShopping.sln.
-3. Kiểm tra Chuỗi kết nối: Mở các file FrmMain.cs, FrmLogin.cs, và FrmThemSanPham.cs, kiểm tra đoạn conString đảm bảo trỏ đúng IP 192.168.22.51 và mật khẩu Oracle của bạn.
-4. Chạy ứng dụng: Nhấn nút Start (F5) trên thanh công cụ của Visual Studio.
-5. Thao tác kiểm tra:
+ * 1. Khởi động Cơ sở dữ liệu: Đảm bảo Oracle Database trên máy Mac đang hoạt động và mạng nội bộ giữa máy ảo Windows và Mac đã thông suốt (có thể ping thấy địa chỉ IP 192.168.22.51).
+ * 2. Mở Project: Khởi động Visual Studio trên Windows và mở solution HeThongEShopping.sln.
+ * 3. Kiểm tra Chuỗi kết nối: Mở các file FrmMain.cs, FrmLogin.cs, và FrmThemSanPham.cs, kiểm tra đoạn conString đảm bảo trỏ đúng IP 192.168.22.51 và mật khẩu Oracle của bạn.
+ * 4. Chạy ứng dụng: Nhấn nút Start (F5) trên thanh công cụ của Visual Studio.
+ * 5. Thao tác kiểm tra:
    * Vào Danh mục > Sản phẩm để xem danh sách sản phẩm đổ từ Oracle lên lưới.
    * Vào Hệ thống > Đăng nhập Khách hàng để thử nghiệm tính năng đăng nhập (Tài khoản mẫu: ptttrang / 123456 hoặc annguyen / pass123).
    * Sử dụng form thêm sản phẩm để kiểm tra chức năng ghi dữ liệu xuống CSDL.
