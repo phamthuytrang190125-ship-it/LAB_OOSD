@@ -1,7 +1,4 @@
 # Hệ Thống Quản Lý Công Ty Du Lịch
-
-Đây là báo cáo đồ án (Bài 6) về việc phân tích, thiết kế và xây dựng Hệ thống Quản lý Công ty Du lịch, ứng dụng phân tích thiết kế hệ thống (UML) kết hợp lập trình **C# WinForms** và hệ quản trị cơ sở dữ liệu **Oracle**.
-
 ## Công Nghệ & Công Cụ Sử Dụng
 *   **Ngôn ngữ lập trình:** C#
 *   **Giao diện:** Windows Forms (WinForms)
