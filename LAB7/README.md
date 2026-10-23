@@ -10,8 +10,7 @@
 ## Các Chức Năng & Tiến Độ (Đã hoàn thiện)
 *   **Phân tích & Thiết kế (UML):** Hoàn thiện bộ hồ sơ thiết kế chuẩn xác bao gồm Use Case phân rã, Activity Diagram, Sequence Diagram, State Diagram và ERD.
 *   **Thiết kế Cơ sở dữ liệu:** Xây dựng mô hình quan hệ gồm 7 bảng cốt lõi (`PhongBan`, `NhanVien`, `HopDong`, `QuyetDinh`, `BangChamCong`, `PhieuPhuTroi`, `PhieuThuChi`) kèm dữ liệu mẫu thực tế chuẩn xác.
-*   **Giao diện Điều hướng (FrmMain):** Xây dựng bộ khung giao diện phần mềm quản trị (Form Cha MDI) chia các nhóm menu (Danh mục, Tuyển dụng, Hợp đồng, Chấm công, Tính lương).
-*   **Lớp Kết Nối An Toàn:** Khởi tạo class chuyên biệt để quản lý kết nối CSDL Oracle chuẩn mô hình 3 lớp.
+*   **Giao diện Điều hướng (FrmMain):** (Danh mục, Tuyển dụng, Hợp đồng, Chấm công, Tính lương).
 
 ## Hướng Dẫn Cài Đặt & Chạy Dự Án
 
