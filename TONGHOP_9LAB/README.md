@@ -1,4 +1,4 @@
-# Tổng hợp Bài tập Môn Phương pháp phát triển phần mềm hướng đối tượng
+# Tổng hợp 9 bài lab môn Phương Pháp Phát Triển Phần Mềm Hướng Đối Tượng
 
 Repository này lưu trữ toàn bộ các bài tập trên lớp, mô hình UML, file CSDL SQL Server và source code đồ án nhỏ được giao trong quá trình học môn **Phương pháp phát triển phần mềm hướng đối tượng**.
 
