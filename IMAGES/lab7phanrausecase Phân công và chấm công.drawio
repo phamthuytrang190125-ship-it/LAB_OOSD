@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="F2vYX9ADiF_0ZpaPckrd">
+    <mxGraphModel dx="1601" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-4TB7THEqNjvy77jPXoc-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=18;" value="" vertex="1">
+          <mxGeometry height="321" width="658" x="-50" y="21" as="geometry" />
+        </mxCell>
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nleft to right direction\nskinparam usecase {\n    BackgroundColor #FFF2CC\n    BorderColor #A63A50\n    ArrowColor #A63A50\n}\nskinparam defaultFontName Arial\nskinparam defaultFontSize 12\nhide empty description\n\nusecase \&quot;Phan cong va cham cong\\n(from Use Case View)\&quot; as MainUC\n\nusecase \&quot;Lap ke hoach\\nphan cong\&quot; as UC1\nusecase \&quot;Cham cong\\nhang ngay\&quot; as UC2\nusecase \&quot;Ghi nhan gio\\nphu troi\&quot; as UC3\nusecase \&quot;Lap phieu\\nphu troi\&quot; as UC4\n\nMainUC &lt;.. UC1 : &lt;&lt;extend&gt;&gt;\nMainUC &lt;.. UC2 : &lt;&lt;extend&gt;&gt;\nMainUC &lt;.. UC3 : &lt;&lt;extend&gt;&gt;\nUC3 &lt;.. UC4 : &lt;&lt;include&gt;&gt;\n\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="-4TB7THEqNjvy77jPXoc-1">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10 10 10 20;fontFamily=Times New Roman;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Phan cong va cham cong&lt;br&gt;(from Use Case View)" plantUmlId="uc_0" plantUmlBaseStyle="ellipse;html=1;fillColor=#FFF2CC;strokeColor=#A63A50;whiteSpace=wrap;fontColor=#000000;fontSize=12;fontFamily=Arial;" plantUmlBaseValue="Phan cong va cham cong&lt;br&gt;(from Use Case View)" id="-4TB7THEqNjvy77jPXoc-2">
+          <mxCell parent="-4TB7THEqNjvy77jPXoc-1" style="ellipse;html=1;whiteSpace=wrap;fontSize=18;fontFamily=Times New Roman;" vertex="1">
+            <mxGeometry height="54" width="245" x="-30" y="110" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Lap ke hoach&lt;br&gt;phan cong" plantUmlId="uc_1" plantUmlBaseStyle="ellipse;html=1;fillColor=#FFF2CC;strokeColor=#A63A50;whiteSpace=wrap;fontColor=#000000;fontSize=12;fontFamily=Arial;" plantUmlBaseValue="Lap ke hoach&lt;br&gt;phan cong" id="-4TB7THEqNjvy77jPXoc-3">
+          <mxCell parent="-4TB7THEqNjvy77jPXoc-1" style="ellipse;html=1;whiteSpace=wrap;fontSize=18;fontFamily=Times New Roman;" vertex="1">
+            <mxGeometry height="52" width="138" x="310" y="31" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Cham cong&lt;br&gt;hang ngay" plantUmlId="uc_2" plantUmlBaseStyle="ellipse;html=1;fillColor=#FFF2CC;strokeColor=#A63A50;whiteSpace=wrap;fontColor=#000000;fontSize=12;fontFamily=Arial;" plantUmlBaseValue="Cham cong&lt;br&gt;hang ngay" id="-4TB7THEqNjvy77jPXoc-4">
+          <mxCell parent="-4TB7THEqNjvy77jPXoc-1" style="ellipse;html=1;whiteSpace=wrap;fontSize=18;fontFamily=Times New Roman;" vertex="1">
+            <mxGeometry height="52" width="114" x="270" y="190" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ghi nhan gio&lt;br&gt;phu troi" plantUmlId="uc_3" plantUmlBaseStyle="ellipse;html=1;fillColor=#FFF2CC;strokeColor=#A63A50;whiteSpace=wrap;fontColor=#000000;fontSize=12;fontFamily=Arial;" plantUmlBaseValue="Ghi nhan gio&lt;br&gt;phu troi" id="-4TB7THEqNjvy77jPXoc-5">
+          <mxCell parent="-4TB7THEqNjvy77jPXoc-1" style="ellipse;html=1;whiteSpace=wrap;fontSize=18;fontFamily=Times New Roman;" vertex="1">
+            <mxGeometry height="52" width="128" x="470.00000000000006" y="110" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Lap phieu&lt;br&gt;phu troi" plantUmlId="uc_4" plantUmlBaseStyle="ellipse;html=1;fillColor=#FFF2CC;strokeColor=#A63A50;whiteSpace=wrap;fontColor=#000000;fontSize=12;fontFamily=Arial;" plantUmlBaseValue="Lap phieu&lt;br&gt;phu troi" id="-4TB7THEqNjvy77jPXoc-6">
+          <mxCell parent="-4TB7THEqNjvy77jPXoc-1" style="ellipse;html=1;whiteSpace=wrap;fontSize=18;fontFamily=Times New Roman;" vertex="1">
+            <mxGeometry height="52" width="103" x="303.1" y="280" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_5" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#A63A50;fontColor=#000000;fontSize=12;edgeStyle=none;rounded=0;html=1;fontFamily=Arial;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="-4TB7THEqNjvy77jPXoc-7">
+          <mxCell edge="1" parent="-4TB7THEqNjvy77jPXoc-1" source="-4TB7THEqNjvy77jPXoc-3" style="endArrow=open;dashed=1;dashPattern=5 5;fontColor=#000000;fontSize=18;edgeStyle=none;rounded=0;html=1;fontFamily=Times New Roman;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="-4TB7THEqNjvy77jPXoc-2">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_6" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#A63A50;fontColor=#000000;fontSize=12;edgeStyle=none;rounded=0;html=1;fontFamily=Arial;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="-4TB7THEqNjvy77jPXoc-8">
+          <mxCell edge="1" parent="-4TB7THEqNjvy77jPXoc-1" source="-4TB7THEqNjvy77jPXoc-4" style="endArrow=open;dashed=1;dashPattern=5 5;fontColor=#000000;fontSize=18;edgeStyle=none;rounded=0;html=1;fontFamily=Times New Roman;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="-4TB7THEqNjvy77jPXoc-2">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_7" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#A63A50;fontColor=#000000;fontSize=12;edgeStyle=none;rounded=0;html=1;fontFamily=Arial;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="-4TB7THEqNjvy77jPXoc-9">
+          <mxCell edge="1" parent="-4TB7THEqNjvy77jPXoc-1" source="-4TB7THEqNjvy77jPXoc-5" style="endArrow=open;dashed=1;dashPattern=5 5;fontColor=#000000;fontSize=18;edgeStyle=none;rounded=0;html=1;fontFamily=Times New Roman;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="-4TB7THEqNjvy77jPXoc-2">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«include»" plantUmlId="rel_8" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#A63A50;fontColor=#000000;fontSize=12;edgeStyle=none;rounded=0;html=1;fontFamily=Arial;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«include»" id="-4TB7THEqNjvy77jPXoc-10">
+          <mxCell edge="1" parent="-4TB7THEqNjvy77jPXoc-1" source="-4TB7THEqNjvy77jPXoc-6" style="endArrow=open;dashed=1;dashPattern=5 5;fontColor=#000000;fontSize=18;edgeStyle=none;rounded=0;html=1;fontFamily=Times New Roman;verticalAlign=bottom;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="-4TB7THEqNjvy77jPXoc-5">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
